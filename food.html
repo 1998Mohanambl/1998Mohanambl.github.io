@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.body {
+       
+       fontsize:20px;
+       font-style:italic;
+}
+.body1 {
+       background-color: black;
+       fontsize:8px;
+       color=white;
+}
+h1   {
+      color: black;
+      
+}
+h2
+{
+color:white;
+}
+nav {
+  float: left;
+  width: 20%;
+  height: 700px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:powderblue;
+  height: 700px; /* only for demonstration, should be removed */
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+.vl {
+  border-left: 3px solid green;
+  height: 700px;
+}
+p    {color: red;}
+</style>
+</head>
+<body>
+<div class="body">
+<h1 align="center">Foods</h1>
+</div>
+<section>
+  <nav>
+    <ul>
+     <h2>BreakFast</h2>
+      <li>Oats</li>
+<hr>
+      <li>Milk</li>
+<hr>
+      <li>Orange juice</li>
+<hr>
+      <p>Add Food</p>
+    </ul>
+<hr>
+<ul>
+     <h2>Lunch</h2>
+      <li>Rice</li>
+<hr>
+      <li>Potatos</li>
+<hr>
+      <li>Sambar</li>
+<hr>
+      <p>Add Food</p>
+    </ul>
+<hr>
+<ul>
+     <h2>Dinner</h2>
+      
+      <p>Add Food</p>
+    </ul>
+<hr>
+<ul>
+     <h2>Snacks</h2>
+      <li>coffee</li>
+<hr>
+      <li>bajji</li>
+<hr>
+ 
+      <p>Add Food</p>
+    </ul>
+<hr>
+  </nav>
+<article>
+<li>
+<h4>
+<span>colories</span>
+<div class="v1"></div>
+<span>fats</span>
+</h4>
+</li>
+</article>
+</section>
+
+</body>
+</html>
